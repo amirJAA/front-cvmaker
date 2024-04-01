@@ -1,0 +1,38 @@
+.containerproject {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1.5rem; /* Equivalent à px-6 */
+    margin-top: 0.5rem; /* Equivalent à mt-2 */
+  }
+  
+  .title {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; /* Equivalent à mb-4 */
+  }
+  
+  .itemHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .textsm {
+    font-size: 0.875rem; /* Equivalent à text-sm */
+  }
+  
+  .itemLink {
+    overflow-wrap: break-word; /* Equivalent à break-words */
+    overflow: hidden; /* Equivalent à overflow-hidden */
+  }
+  

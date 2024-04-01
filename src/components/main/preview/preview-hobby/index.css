@@ -1,0 +1,19 @@
+.containerhobby {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .title {
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  
+  .item {
+    display: flex;
+  }
+  

@@ -1,0 +1,20 @@
+.containerpersonal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .photo {
+    margin-bottom: 1rem; /* Equivalent à mb-4 */
+  }
+  
+  .rounded {
+    border-radius: 9999px; /* Valeur arbitraire pour un arrondi complet */
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem; /* Equivalent à mb-2 */
+  }
+  

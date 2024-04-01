@@ -1,15 +1,15 @@
-.containerref {
+.containerexperience {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 1.5rem; /* Equivalent à px-6 */
-    margin-top: 0.5rem; /* Equivalent à mt-2 */
+    padding: 0 6px;
+    margin-top: 2px;
   }
   
   .title {
-    padding: 0.5rem 0.75rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.1em;
@@ -18,7 +18,7 @@
   .item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem; /* Equivalent à mb-4 */
+    margin-bottom: 16px;
   }
   
   .itemHeader {
@@ -28,6 +28,6 @@
   }
   
   .textsm {
-    font-size: 0.875rem; /* Equivalent à text-sm */
+    font-size: 0.875rem; /* 14px */
   }
   

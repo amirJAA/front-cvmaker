@@ -5,6 +5,7 @@ import password_icon from '../../assets/password.png';
 import user_icon from '../../assets/person.png';
 import logo from '../../assets/logo.jpg';
 import AuthService from '../../services/auth.service';
+import { useNavigate } from 'react-router-dom';
 
 function Auth() {
     const [loginEmail, setLoginEmail] = useState('');
@@ -15,6 +16,7 @@ function Auth() {
     const [confirmPassword, setConfirmPassword] = useState('');
     const [passwordError, setPasswordError] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const navigate = useNavigate();
 
     const handleLogin = () => {
         // Logique de connexion...
@@ -23,9 +25,7 @@ function Auth() {
                 console.log(res);
                 // Traitement de la réponse de l'API (à adapter selon votre backend)
                 if (res && res.success) {
-                    // Redirection après la connexion réussie
-                    // Par exemple :
-                    // history.push('/dashboard');
+                    navigate('/main');
                 } else {
                     setErrorMessage('Adresse email ou mot de passe incorrect');
                 }
@@ -50,9 +50,7 @@ function Auth() {
                     console.log(res);
                     // Traitement de la réponse de l'API (à adapter selon votre backend)
                     if (res && res.success) {
-                        // Redirection après l'inscription réussie
-                        // Par exemple :
-                        // history.push('/dashboard');
+                        navigate('/main');
                     } else {
                         setErrorMessage('Une erreur s\'est produite lors de l\'inscription');
                     }
@@ -70,37 +68,6 @@ function Auth() {
             <div className='container'>
                 <div className='logo'>
                     <img src={logo} alt='logo' />
-                </div>
-                <div className='subcontainer'>
-                    <div className="header">
-                        <div className="text">
-                            Connexion
-                        </div>
-                        <div className="underline"></div>
-                    </div>
-                    <div className="inputs">
-                        <div className="input">
-                            <img src={email_icon} alt="" />
-                            <input
-                                type="email"
-                                placeholder='Email'
-                                value={loginEmail}
-                                onChange={(e) => setLoginEmail(e.target.value)}
-                            />
-                        </div>
-                        <div className="input">
-                            <img src={password_icon} alt="" />
-                            <input
-                                type="password"
-                                placeholder="Mot de passe"
-                                value={loginPassword}
-                                onChange={(e) => setLoginPassword(e.target.value)}
-                            />
-                        </div>
-                    </div>
-                    <div className="submit-container">
-                        <div  className="submit" onClick={handleLogin}>Se connecter</div>
-                    </div>
                 </div>
                 <div className='subcontainer'>
                     <div className="header">
@@ -156,6 +123,38 @@ function Auth() {
                         <div className="submit" onClick={handleSignup}>S'inscrire</div>
                     </div>
                 </div>
+                <div className='subcontainer'>
+                    <div className="header">
+                        <div className="text">
+                            Connexion
+                        </div>
+                        <div className="underline"></div>
+                    </div>
+                    <div className="inputs">
+                        <div className="input">
+                            <img src={email_icon} alt="" />
+                            <input
+                                type="email"
+                                placeholder='Email'
+                                value={loginEmail}
+                                onChange={(e) => setLoginEmail(e.target.value)}
+                            />
+                        </div>
+                        <div className="input">
+                            <img src={password_icon} alt="" />
+                            <input
+                                type="password"
+                                placeholder="Mot de passe"
+                                value={loginPassword}
+                                onChange={(e) => setLoginPassword(e.target.value)}
+                            />
+                        </div>
+                    </div>
+                    <div className="submit-container">
+                        <div  className="submit" onClick={handleLogin}>Se connecter</div>
+                    </div>
+                </div>
+               
             </div>
         </div>
         

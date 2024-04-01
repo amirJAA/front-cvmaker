@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    background-color: #343a40; /* Remplacer par la couleur dark appropriée */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Remplacer par l'espace approprié */
+    color: #f8f9fa; /* Remplacer par la couleur light appropriée */
+    text-align: center;
+    padding: 1rem; /* Remplacer par le padding approprié */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08); /* Remplacer par la shadow appropriée */
+    font-size: 1rem; /* Remplacer par la taille de police appropriée */
+    line-height: 1.5; /* Remplacer par le leading approprié */
+  }
+
+  

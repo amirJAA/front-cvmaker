@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0; /* Ou ajustez les valeurs selon les breakpoints */
+    margin-bottom: 5px;
+    background-color: #60a5fa; /* Couleur de fond */
+    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-right: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Ombre */
+  }
+  

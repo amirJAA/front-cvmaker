@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: justify-start;
+    align-items: center;
+    gap: 0.25rem;
+    gap-x: 1;
+    background-color: #60a5fa; /* Remplacez par votre couleur de fond */
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .box {
+    appearance: none;
+    width: 4rem; /* Remplacez par votre largeur */
+    height: 2rem; /* Remplacez par votre hauteur */
+    border: 2px solid #ffffff; /* Remplacez par votre couleur de bordure */
+    margin-bottom: 0.5rem;
+  }
+  
+  .box::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  
+  .box::-webkit-color-swatch {
+    border: 0;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .span {
+    font-size: 0.75rem; /* Remplacez par votre taille de police */
+    color: #ffffff; /* Remplacez par votre couleur de texte */
+  }
+  
+  .hint {
+    width: 100%;
+    font-size: 0.75rem; /* Remplacez par votre taille de police */
+    color: #ffffff; /* Remplacez par votre couleur de texte */
+  }
+  

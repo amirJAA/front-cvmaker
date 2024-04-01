@@ -1,0 +1,32 @@
+.box {
+    appearance: none;
+    width: 4rem; /* Remplacer par la largeur souhaitée */
+    height: 2rem; /* Remplacer par la hauteur souhaitée */
+    border: 2px solid #ffffff; /* Remplacer par la couleur de la bordure souhaitée */
+    margin-bottom: 0.5rem; /* Modifier selon les besoins */
+  }
+  
+  .box::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  
+  .box::-webkit-color-swatch {
+    border: 0;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .span {
+    font-size: 0.75rem; /* Modifier selon les besoins */
+    color: #ffffff; /* Remplacer par la couleur du texte souhaitée */
+  }
+  
+  .hint {
+    width: 100%;
+    font-size: 0.75rem; /* Modifier selon les besoins */
+    color: #ffffff; /* Remplacer par la couleur du texte souhaitée */
+  }
+  

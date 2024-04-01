@@ -1,0 +1,19 @@
+.form {
+    background-color: #ffad1f; /* Couleur orange */
+    width: 100%; /* Largeur pleine */
+    max-width: 40%; /* Largeur maximum pour les écrans larges (2/5 de la largeur de l'écran) */
+    height: 100%; /* Hauteur pleine */
+    display: flex; /* Affichage en flexbox */
+    flex-direction: column; /* Contenu en colonnes */
+    align-items: flex-start; /* Alignement des éléments sur le côté gauche */
+    justify-content: flex-start; /* Justification du contenu en haut */
+    overflow: auto; /* Défilement automatique si le contenu dépasse */
+    padding: 1.25rem; /* Rembourrage autour du contenu (5/4 de REM) */
+  }
+  
+  @media (min-width: 1024px) {
+    .form {
+      padding: 2.5rem; /* Rembourrage plus grand pour les écrans larges (10/4 de REM) */
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.language {
+    background-color: #4ea8de; /* Remplacer par la couleur de fond souhaitée */
+    display: flex;
+    align-items: center;
+    color: #ffffff; /* Remplacer par la couleur du texte souhaitée */
+    font-size: 0.75rem; /* Modifier selon les besoins */
+    letter-spacing: 0.1em; /* Modifier selon les besoins */
+    cursor: pointer;
+  }
+  
+  .language:hover {
+    background-color: #333333; /* Remplacer par la couleur de fond au survol souhaitée */
+  }
+  
+  .span {
+    padding: 0.25rem; /* Modifier selon les besoins */
+  }
+  

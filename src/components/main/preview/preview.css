@@ -1,0 +1,22 @@
+.preview {
+    width: 100%; /* Largeur pleine */
+    height: 100%; /* Hauteur pleine */
+    display: flex; /* Affichage en flexbox */
+    align-items: flex-start; /* Alignement des éléments sur le côté gauche */
+    justify-content: flex-start; /* Justification du contenu en haut */
+    overflow: auto; /* Défilement automatique si le contenu dépasse */
+  }
+  
+  .leftSide {
+    width: 33.333333%; /* 2/6 de la largeur parente (1/3) */
+    height: auto; /* Hauteur automatique */
+    min-height: 100%; /* Hauteur minimum égale à la hauteur parente */
+    padding: 1.5rem; /* Rembourrage autour du contenu (6/4 de REM) */
+  }
+  
+  .rightSide {
+    width: 66.666667%; /* 4/6 de la largeur parente (2/3) */
+    height: auto; /* Hauteur automatique */
+    min-height: 100%; /* Hauteur minimum égale à la hauteur parente */
+  }
+  

@@ -1,0 +1,10 @@
+.card {
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4ea8de; /* Remplacer par la couleur souhaitée */
+    padding: 8px 4px; /* Modifier selon les besoins */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.06); /* Modifier selon les besoins */
+  }
+  
